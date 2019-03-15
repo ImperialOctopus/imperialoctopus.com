@@ -1,0 +1,132 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/icon-72x72.png",
+        "/es2015-polyfills.4a4cfea0ce682043f4e9.js",
+        "/index.html",
+        "/main.05114c52c37943fdda5a.js",
+        "/polyfills.407a467dedb63cfdd103.js",
+        "/runtime.a5dd35324ddfd942bef1.js",
+        "/styles.82d63c9136dd9ba74455.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/audio/en-gb-C/output.ac3",
+        "/assets/audio/en-gb-C/output.m4a",
+        "/assets/audio/en-gb-C/output.mp3",
+        "/assets/audio/en-gb-C/output.ogg",
+        "/assets/audio/en-gb-D/output.ac3",
+        "/assets/audio/en-gb-D/output.m4a",
+        "/assets/audio/en-gb-D/output.mp3",
+        "/assets/audio/en-gb-D/output.ogg",
+        "/assets/buttons/character-off.jpg",
+        "/assets/buttons/character-on.jpg",
+        "/assets/buttons/close.jpg",
+        "/assets/buttons/left-arrow.jpg",
+        "/assets/buttons/play.jpg",
+        "/assets/buttons/player-dialog.jpg",
+        "/assets/buttons/right-arrow.jpg",
+        "/assets/buttons/save.jpg",
+        "/assets/buttons/settings.jpg",
+        "/assets/buttons/sound-off.jpg",
+        "/assets/buttons/sound-on.jpg",
+        "/assets/buttons/sound-pause.jpg",
+        "/assets/buttons/sound-play.jpg",
+        "/assets/characters/assassin.jpg",
+        "/assets/characters/loyal-servant.jpg",
+        "/assets/characters/merlin.jpg",
+        "/assets/characters/minion.jpg",
+        "/assets/characters/mordred.jpg",
+        "/assets/characters/morgana.jpg",
+        "/assets/characters/oberon.jpg",
+        "/assets/characters/percival.jpg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-96x96.png"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.gstatic\\.com\\/s\\/pacifico\\/v13\\/FwZY7-Qmy14u9lezJ-6D6MmTpA\\.woff2",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/s\\/pacifico\\/v13\\/FwZY7-Qmy14u9lezJ-6H6Mk\\.woff2"
+      ]
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/audio/en-gb-C/output.ac3": "d83f46d4129310a094629e866accc21876701037",
+    "/assets/audio/en-gb-C/output.m4a": "4285b97c730ea8dd97823fd5d882095fa68488dc",
+    "/assets/audio/en-gb-C/output.mp3": "595dae62c86df7b817db9ca7358752b3d447d480",
+    "/assets/audio/en-gb-C/output.ogg": "2114f6218fb1f612755c2d3af2d1e741d1d32730",
+    "/assets/audio/en-gb-D/output.ac3": "93ca3de5781f071eceb1bb46d599d98bd0cc4892",
+    "/assets/audio/en-gb-D/output.m4a": "24fc58b6aa21bf9a37a1ad7fde7ea33f02c5547c",
+    "/assets/audio/en-gb-D/output.mp3": "c42487cd4bf9df3c3bb48e439ccf8eae1144a13e",
+    "/assets/audio/en-gb-D/output.ogg": "7e43997591d286f9b68881ffe26ad8fb80bb8150",
+    "/assets/buttons/character-off.jpg": "7527623f996d36ba09481d09fd4eb730624a1e3b",
+    "/assets/buttons/character-on.jpg": "9271b5370682cdde25bae176d1342141d14ceda0",
+    "/assets/buttons/close.jpg": "7527623f996d36ba09481d09fd4eb730624a1e3b",
+    "/assets/buttons/left-arrow.jpg": "c1e18bb616de7944b37065f1d623cec85834ba31",
+    "/assets/buttons/play.jpg": "dc8f59edea9e93644196f7008090d86669ae8687",
+    "/assets/buttons/player-dialog.jpg": "95fef6155eabd8436d8148e9ce949f47e7ab5338",
+    "/assets/buttons/right-arrow.jpg": "b07062be27d0610aa5d6ec8e4344adb140cdfe15",
+    "/assets/buttons/save.jpg": "a83dc4752288b5f34684b684b892469d1f625ae4",
+    "/assets/buttons/settings.jpg": "e058e157913a75eafff1c4bf7dd78f6983e30fdd",
+    "/assets/buttons/sound-off.jpg": "a092384e075da18778a238aa61cb601db8dfe4c7",
+    "/assets/buttons/sound-on.jpg": "f2e7d82c0125136dc667861600ca940b50eca218",
+    "/assets/buttons/sound-pause.jpg": "d20083dbe2b0fa11b99b8f749f5b55411f469129",
+    "/assets/buttons/sound-play.jpg": "42461a06a66ddad427c6c736da556d8187a53acd",
+    "/assets/characters/assassin.jpg": "aebe184484dc70d90e115ef5e329bc236458f529",
+    "/assets/characters/loyal-servant.jpg": "5f77bea3f9f20d1cf9de5dbb1c85dd9bb8c7d629",
+    "/assets/characters/merlin.jpg": "1c9bb14a41f7b68947f0a693b00fdb6195eaf93d",
+    "/assets/characters/minion.jpg": "c144378424127ea5a87fb81c3a94aeae8aa3e53c",
+    "/assets/characters/mordred.jpg": "8943f6b2f239cab1234bd3beee46000d80c46f14",
+    "/assets/characters/morgana.jpg": "b38d8ce9ce8ba056bf179556edde1a9d4533a7f4",
+    "/assets/characters/oberon.jpg": "dd32fc52304b9ab52d9e306c3e5b630cafa121b8",
+    "/assets/characters/percival.jpg": "1889eac87d367988303394bad3c206a78c0dd0c9",
+    "/assets/icons/icon-128x128.png": "a9b9a5cb4845a5db808fd12021e608c78afa3e30",
+    "/assets/icons/icon-144x144.png": "5f272c9657b85a996a9fd5c4286db4bfa8b7fcd4",
+    "/assets/icons/icon-152x152.png": "d27cee5f3788307ff57a87aadb2d188d8081374c",
+    "/assets/icons/icon-192x192.png": "402dcc807b2d4c611c7cb52c049ac62a857d5f1b",
+    "/assets/icons/icon-384x384.png": "5cd1f737776ff3eb1bb7a9f886c1268b3debcfa9",
+    "/assets/icons/icon-512x512.png": "6963c3f8a5992291dca67d04a86d80c9a09cf134",
+    "/assets/icons/icon-72x72.png": "cbd0068c06eebde3c146d58aa2cb5bb4f029d042",
+    "/assets/icons/icon-96x96.png": "0f8f831794295eb22aa6e75fcc5d3e0675b6b0e2",
+    "/es2015-polyfills.4a4cfea0ce682043f4e9.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
+    "/index.html": "03d8405601195334ebde7c5472e53b4fb1b9712d",
+    "/main.05114c52c37943fdda5a.js": "32166de136b439b758708a81eb96bb1ca139e330",
+    "/polyfills.407a467dedb63cfdd103.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/styles.82d63c9136dd9ba74455.css": "5820e773d59bb5aba15ae8ca68e4567da57c52db"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
