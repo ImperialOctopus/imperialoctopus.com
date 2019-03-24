@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1553434192897,
+  "timestamp": 1553436200366,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,10 +10,10 @@
       "urls": [
         "/es2015-polyfills.c5dd28b362270c767b34.js",
         "/index.html",
-        "/main.5f92a9024b12e956ae24.js",
+        "/main.2fffe9dbdd24dbf772b0.js",
         "/polyfills.8bbb231b43165d65d357.js",
         "/runtime.26209474bfa8dc87a77c.js",
-        "/styles.3221fb0ec64de023702e.css"
+        "/styles.afafad3dc0f8f9c603f7.css"
       ],
       "patterns": []
     },
@@ -47,11 +47,11 @@
     "/assets/icons/icon-96x96.png": "ffcc35a9b4c64b6285dd49cba5c4f869dc620a92",
     "/assets/lizard.jpg": "1bb6a136db6f22bd2797c3470acf303558fe6eeb",
     "/es2015-polyfills.c5dd28b362270c767b34.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
-    "/index.html": "42cdea26797fa574b986783ce1e8ccd89d1e1a19",
-    "/main.5f92a9024b12e956ae24.js": "49a88281f787bb73418a9418e5a744aa4d1cc08f",
+    "/index.html": "66569988eb4cf539f7f30568a41f6471df58e3a0",
+    "/main.2fffe9dbdd24dbf772b0.js": "ea745c34dfa687e2ee61c4d9dcc867b4caeda09d",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.3221fb0ec64de023702e.css": "9fa93c02ee81f49d8e0dfd1bc2f86bda3fbe2ea2"
+    "/styles.afafad3dc0f8f9c603f7.css": "1e18604b23256fcce077f32537fd234e139358d6"
   },
   "navigationUrls": [
     {
