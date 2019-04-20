@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+    <link rel="icon" href="{{ site.baseurl }}/assets/images/icon.png">
 
     <title>{{ page.title }} | {{site.name}}</title>
 
@@ -79,7 +79,11 @@
                         <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
                     </li>
 
+                    {% if page.url == "/about" %}
+                    <li class="nav-item active">
+                        {% else %}
                     <li class="nav-item">
+                        {% endif %}
                         <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
                     </li>
 
@@ -126,7 +130,8 @@
 ================================================== -->
             <div class="alertbar">
                 <div class="container text-center">
-                    <span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a
+                    <span><img class="icon" src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never
+                        miss a
                         <b>story</b> from us, subscribe to our newsletter</span>
                     <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form"
                         class="wj-contact-form validate" target="_blank" novalidate>

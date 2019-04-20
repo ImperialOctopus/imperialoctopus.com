@@ -421,6 +421,10 @@ blockquote {
         display: block;
     }
 
+    .alertbar .icon {
+        max-height: 30px;
+    }
+
     .alertbar input[type="submit"] {
         border-radius: 3px !Important;
     }
@@ -590,6 +594,10 @@ ul.tags li a:hover {
     height: 34px;
     letter-spacing: 0.5px;
     cursor: pointer;
+}
+
+.alertbar .icon {
+    max-height: 30px;
 }
 
 .form-control::-webkit-input-placeholder {
