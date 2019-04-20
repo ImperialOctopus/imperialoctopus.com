@@ -1,6 +1,7 @@
 # Site
-name: "ImperialOctopus"
 title: "ImperialOctopus"
+name: "Zoey Child"
+copyright: "Zoey Child"
 description: "Third Year Veterinary Student at the University of Cambridge"
 logo: 'assets/images/icon.png'
 favicon: 'assets/images/icon.png'
@@ -13,14 +14,14 @@ permalink: /:title/
 
 # Authors
 authors:
-  sal:
+  zoey:
     name: Zoey Child
     display_name: Zoey
     avatar: 'assets/images/avatar.jpg'
     email: imperialoctopus@gmail.com
     web: https://imperialoctopus.com/
     twitter: https://twitter.com/imperialoctopus
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: ""
 
 # Plugins
 plugins:

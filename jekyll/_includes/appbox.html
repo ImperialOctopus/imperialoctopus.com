@@ -1,12 +1,11 @@
 <!-- begin post -->
-{% assign author = site.authors[post.author] %}
 <div class="col-md-6 mb-30px">
     <div class="listfeaturedtag h-100">
         <div class="row h-100">
             <div class="col-12 col-md-12 col-lg-5 pr-lg-0">
                 <div class="h-100">
                     <div class="wrapthumbnail">
-                        <a href="{{ post.url | absolute_url }}">
+                        <a href="{{ post.external_url | absolute_url }}">
                             {% if site.lazyimages == "enabled" %}
                             <img class="featured-box-img-cover lazyimg"
                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
@@ -24,7 +23,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h2 class="card-title">
-                                <a class="text-dark" href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+                                <a class="text-dark" href="{{ post.external_url | absolute_url }}">{{ post.title }}</a>
                                 {% if post.rating %}
                                 <div class="mb-2 mt-2 font-weight-normal">
                                     {% include star_rating_postbox.html %}
@@ -36,7 +35,6 @@
                         </div>
                         <div class="card-footer b-0 bg-white mt-auto">
                             <div class="wrapfooter">
-                                <span class="post-date">{{ post.date | date_to_string }}</span>
                                 <div class="clearfix"></div>
                             </div>
                         </div>

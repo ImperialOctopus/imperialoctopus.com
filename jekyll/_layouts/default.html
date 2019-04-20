@@ -7,7 +7,7 @@
 
     <link rel="icon" href="{{ site.baseurl }}/assets/images/icon.png">
 
-    <title>{{ page.title }} | {{site.name}}</title>
+    <title>{{ page.title }} | {{site.title}}</title>
 
     {% seo %}
 
@@ -76,21 +76,29 @@
                         {% else %}
                     <li class="nav-item">
                         {% endif %}
-                        <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                        <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
                     </li>
 
-                    {% if page.url == "/about" %}
+                    {% if page.url == "/categories" %}
                     <li class="nav-item active">
                         {% else %}
                     <li class="nav-item">
                         {% endif %}
-                        <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                        <a class="nav-link" href="{{ site.baseurl }}/categories">Categories</a>
+                    </li>
+
+                    {% if page.url == "/apps" %}
+                    <li class="nav-item active">
+                        {% else %}
+                    <li class="nav-item">
+                        {% endif %}
+                        <a class="nav-link" href="{{ site.baseurl }}/apps">Apps</a>
                     </li>
 
                     <li class="nav-item">
-                        <a target="_blank" class="nav-link"
-                            href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i>
-                            Fork on Github</a>
+                        <a target="_blank" class="nav-link" href="https://github.com/ImperialOctopus"><i
+                                class="fab fa-github"></i>
+                            Github</a>
                     </li>
 
                     {% include search-lunr.html %}
@@ -100,7 +108,6 @@
                 <!-- End Menu -->
 
             </div>
-
         </div>
     </nav>
     <!-- End Navigation
@@ -149,6 +156,7 @@
 
         <!-- Categories Jumbotron
 ================================================== -->
+        <!--
         <div class="jumbotron fortags">
             <div class="d-md-flex h-100">
                 <div class="col-md-4 transpdark align-self-center text-center h-100">
@@ -176,6 +184,7 @@
                 </div>
             </div>
         </div>
+-->
 
         <!-- Begin Footer
 ================================================== -->
@@ -183,7 +192,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                        Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
+                        Copyright © {{ site.time | date: "%Y" }} {{ site.copyright }}
                     </div>
                     <div class="col-md-6 col-sm-6 text-center text-lg-right">
                         <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish
@@ -216,9 +225,11 @@
 
     <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
 
+    <!--
     {% if page.layout == 'post' %}
     <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
     {% endif %}
+    -->
 
 </body>
 
