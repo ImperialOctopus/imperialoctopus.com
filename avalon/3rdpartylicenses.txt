@@ -85,17 +85,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-@angular/material/button
-
-@angular/material/core
-
 @angular/material/dialog
-
-@angular/material/form-field
-
-@angular/material/select
-
-@angular/material/slide-toggle
 
 @angular/platform-browser
 MIT
@@ -156,7 +146,7 @@ THE SOFTWARE.
 
 howler
 MIT
-Copyright (c) 2013-2018 James Simpson and GoldFire Studios, Inc.
+Copyright (c) 2013-2019 James Simpson and GoldFire Studios, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
