@@ -1,0 +1,66 @@
+environment: production
+
+# Site
+title: "ImperialOctopus"
+name: "Zoey Child"
+copyright: "Zoey Child"
+description: "Third Year Veterinary Student at the University of Cambridge"
+logo: 'assets/images/icon.png'
+favicon: 'assets/images/icon.png'
+baseurl: 
+google_analytics: 'UA-46278016-1'
+disqus: false
+mailchimp-list: false
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  zoey:
+    name: Zoey Child
+    display_name: Zoey
+    avatar: 'assets/images/avatar.jpg'
+    email: imperialoctopus@gmail.com
+    web: https://imperialoctopus.com/
+    twitter: https://twitter.com/imperialoctopus
+    description: ""
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

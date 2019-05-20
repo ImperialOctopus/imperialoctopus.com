@@ -1,2 +1,3 @@
 # imperialoctopus.com
-App directory for my hosted web apps.
+
+Jekyll blog site for my web apps based on 'Mediumish' from wowthemes.net
