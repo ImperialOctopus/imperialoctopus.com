@@ -27,7 +27,7 @@ Shameless plug for my [Avalon Companion App](https://avalon.imperialoctopus.com/
 
 Deal each player a character card which they must keep hidden from other players until the end of the game. Set up the correct quest board for the number of players you have.
 
-| Players | 5 | 6 | 7 | 8 | 9 | 10 |
+| Players |   5   |   6   |   7   |   8   |   9   |   10   |
 |---------|---|---|---|---|---|----|
 | Good    | 3 | 4 | 4 | 5 | 6 | 6  |
 | Evil    | 2 | 2 | 3 | 3 | 3 | 4  |
