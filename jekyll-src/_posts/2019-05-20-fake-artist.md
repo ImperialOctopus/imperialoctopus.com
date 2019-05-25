@@ -10,6 +10,8 @@ app: true
 comments: false
 ---
 
+[Fake Artist Companion App](https://fake-artist.imperialoctopus.com/)
+
 A web app to replace the gamemaster when playing A Fake Artist Goes to New York.
 
 ## Instructions

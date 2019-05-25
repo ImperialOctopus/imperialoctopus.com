@@ -10,4 +10,6 @@ app: true
 comments: false
 ---
 
+[GCBGC Website](https://gcbgc.soc.srcf.net/)
+
 Website for the Girton College Board Games Club.
