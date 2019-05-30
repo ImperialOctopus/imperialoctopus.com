@@ -1,0 +1,16 @@
+I"<p><a href="https://fake-artist.imperialoctopus.com/">Fake Artist Companion App</a></p>
+
+<p>A web app to replace the gamemaster when playing A Fake Artist Goes to New York.</p>
+
+<h2 id="instructions">Instructions</h2>
+
+<ol>
+  <li>Enter the number of players on the first screen and press play.</li>
+  <li>Each player privately selects their number and views the prompt word.</li>
+  <li>One player is secretly chosen as “Fake” so does not know the prompt word.</li>
+  <li>Players take it in turn to add to a drawing until each player has drawn two times.</li>
+  <li>All players vote on who the fake was.</li>
+  <li>If the fake is not chosen correctly they win.</li>
+  <li>If the fake is chosen correctly but they guess the prompt word the fake wins, otherwise the other players win.</li>
+</ol>
+:ET
