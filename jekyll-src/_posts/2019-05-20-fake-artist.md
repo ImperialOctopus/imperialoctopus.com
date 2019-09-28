@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Fake Artist Companion"
-categories: [ App ]
+title: "Fake Artist Companion"
+categories: [App]
 image: assets/images/fake-artist.jpg
 description: "A web app to replace the gamemaster when playing A Fake Artist Goes to New York."
 external_url: "https://fake-artist.imperialoctopus.com/"

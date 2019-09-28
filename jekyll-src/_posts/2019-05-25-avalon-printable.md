@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Printable Avalon"
-categories: [ Board Games ]
+title: "Printable Avalon"
+categories: [Board Games]
 image: assets/images/avalon-printable.jpg
 description: "Print at home redesign of The Resistance: Avalon"
 featured: true
@@ -27,10 +27,10 @@ Shameless plug for my [Avalon Companion App](https://avalon.imperialoctopus.com/
 
 Deal each player a character card which they must keep hidden from other players until the end of the game. Set up the correct quest board for the number of players you have.
 
-| Players |   5   |   6   |   7   |   8   |   9   |   10   |
-|---------|---|---|---|---|---|----|
-| Good    | 3 | 4 | 4 | 5 | 6 | 6  |
-| Evil    | 2 | 2 | 3 | 3 | 3 | 4  |
+| Players | 5   | 6   | 7   | 8   | 9   | 10  |
+| ------- | --- | --- | --- | --- | --- | --- |
+| Good    | 3   | 4   | 4   | 5   | 6   | 6   |
+| Evil    | 2   | 2   | 3   | 3   | 3   | 4   |
 
 ### Merlin Looks into the Future
 
@@ -51,15 +51,15 @@ One player starts as "leader" and proposes the first quest team. All players vot
 
 If the majority of players approves the team (teams fail on a tie), players on the team secretly enter either a "succeed" or "fail" vote face down (placing the other card also face down in a different pile). These cards are shuffled and revealed, and if any fails are entered the quest fails; otherwise, the quest succeeds. If the team is rejected, the position of leader moves one place clockwise and the new leader proposes a team. If five teams are rejected in a row, the Evil team immediately wins.
 
-The table below shows how many players must participate in each mission. Missions marked with an asterisk (*) require two fails for the quest to fail.
+The table below shows how many players must participate in each mission. Missions marked with an asterisk (\*) require two fails for the quest to fail.
 
-| Players | 5 | 6 | 7 | 8 | 9 | 10 |
-|---------|---|---|---|---|---|----|
-| Quest 1 | 2 | 2 | 2 | 3 | 3 | 3  |
-| Quest 2 | 3 | 3 | 3 | 4 | 4 | 4  |
-| Quest 3 | 2 | 4 | 3 | 4 | 4 | 4  |
-| Quest 4 | 3 | 3 | 4*| 5*| 5*| 5* |
-| Quest 5 | 3 | 4 | 4 | 5 | 5 | 5  |
+| Players | 5   | 6   | 7   | 8   | 9   | 10  |
+| ------- | --- | --- | --- | --- | --- | --- |
+| Quest 1 | 2   | 2   | 2   | 3   | 3   | 3   |
+| Quest 2 | 3   | 3   | 3   | 4   | 4   | 4   |
+| Quest 3 | 2   | 4   | 3   | 4   | 4   | 4   |
+| Quest 4 | 3   | 3   | 4\* | 5\* | 5\* | 5\* |
+| Quest 5 | 3   | 4   | 4   | 5   | 5   | 5   |
 
 ## End of the Game
 

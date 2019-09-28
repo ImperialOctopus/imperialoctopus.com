@@ -4,11 +4,11 @@ environment: production
 title: "ImperialOctopus"
 name: "Zoey Child"
 copyright: "Zoey Child"
-description: "Third Year Veterinary Student at the University of Cambridge"
-logo: 'assets/images/icon.png'
-favicon: 'assets/images/icon.png'
-baseurl: 
-google_analytics: 'UA-46278016-1'
+description: "Fourth Year Veterinary Student at the University of Cambridge"
+logo: "assets/images/icon.png"
+favicon: "assets/images/icon.png"
+baseurl:
+google_analytics: "UA-46278016-1"
 disqus: false
 mailchimp-list: false
 include: ["_pages"]
@@ -19,7 +19,7 @@ authors:
   zoey:
     name: Zoey Child
     display_name: Zoey
-    avatar: 'assets/images/avatar.jpg'
+    avatar: "assets/images/avatar.jpg"
     email: imperialoctopus@gmail.com
     web: https://imperialoctopus.com/
     twitter: https://twitter.com/imperialoctopus
@@ -39,9 +39,9 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name/'
+    category: "/category/:name/"
 
-# Pagination 
+# Pagination
 paginate: 6
 paginate_path: /page:num/
 
