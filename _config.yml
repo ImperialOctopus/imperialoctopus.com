@@ -7,7 +7,7 @@ copyright: "Zoey Child"
 description: "Fourth Year Veterinary Student at the University of Cambridge"
 logo: "assets/images/icon.png"
 favicon: "assets/images/icon.png"
-baseurl: "https:/imperialoctopus.com"
+baseurl:
 google_analytics: "UA-46278016-1"
 disqus: false
 mailchimp-list: false
