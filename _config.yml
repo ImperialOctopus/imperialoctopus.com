@@ -4,7 +4,7 @@ environment: production
 title: "ImperialOctopus"
 name: "Zoey Child"
 copyright: "Zoey Child"
-description: "Fourth Year Veterinary Student at the University of Cambridge"
+description: "Some things I've made"
 logo: "assets/images/icon.png"
 favicon: "assets/images/icon.png"
 baseurl:
