@@ -9,7 +9,6 @@ logo: "assets/images/icon.png"
 favicon: "assets/images/icon.png"
 baseurl:
 google_analytics: "UA-46278016-1"
-disqus: false
 mailchimp-list: false
 include: ["_pages"]
 permalink: /:title/
@@ -47,6 +46,9 @@ paginate_path: /page:num/
 
 # Other
 markdown: kramdown
+
+highlighter: rouge
+  input: GFM
 
 kramdown:
   input: GFM
