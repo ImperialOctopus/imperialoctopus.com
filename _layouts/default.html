@@ -21,11 +21,6 @@
     <link href="{{ site.baseurl }}/assets/css/github_tables.css" rel="stylesheet">
 
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-
-    
-
-    
-
 </head>
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
@@ -70,17 +65,15 @@
                         <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
                     </li>
 
-                    <!--
-                    {% if page.url == "/categories.html" %}
+                    {% if page.url == "/categories" %}
                     <li class="nav-item active">
                         {% else %}
                     <li class="nav-item">
                         {% endif %}
                         <a class="nav-link" href="{{ site.baseurl }}/categories.html">Categories</a>
                     </li>
-                    -->
 
-                    {% if page.url == "/apps.html" %}
+                    {% if page.url == "/apps" %}
                     <li class="nav-item active">
                         {% else %}
                     <li class="nav-item">
@@ -93,8 +86,6 @@
                                 class="fab fa-github"></i>
                             Github</a>
                     </li>
-
-                    {% include search-lunr.html %}
 
                 </ul>
 
@@ -110,6 +101,8 @@
 
         <div class="container">
 
+            {% if page.url == "/" %}
+
             <!-- Site Title
 ================================================== -->
             <div class="mainheading">
@@ -118,6 +111,8 @@
                     {{ site.description }}
                 </p>
             </div>
+
+            {% endif %}
 
             <!-- Content
 ================================================== -->

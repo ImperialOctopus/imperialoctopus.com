@@ -41,33 +41,33 @@ post_class: post-template
                 {% include adsense-under-header.html %}
             {% endif %}
             <!-- End Adsense -->
-                                                            
-                                    <!-- Post Featured Image -->
+                                                                        
+                                                <!-- Post Featured Image -->
             {% if page.image %}
 
-            <div class="featured-image-container">
+                <div class="featured-image-container">
 
-                {% if page.external_url %}
-                    <a class="featured-image-link" href={{page.external_url}}>
+                    {% if page.external_url %}
+                        <a class="featured-image-link" href={{page.external_url}}>
+                            {% if site.lazyimages == "enabled" %}
+                                <img class="featured-image img-fluid lazyimg shadow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
+                            {% else %}
+                                <img class="featured-image img-fluid shadow" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
+                            {% endif %}
+                        </a>
+                    {% else %}
                         {% if site.lazyimages == "enabled" %}
                             <img class="featured-image img-fluid lazyimg shadow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
                         {% else %}
                             <img class="featured-image img-fluid shadow" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
                         {% endif %}
-                    </a>
-                {% else %}
-                    {% if site.lazyimages == "enabled" %}
-                        <img class="featured-image img-fluid lazyimg shadow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
-                    {% else %}
-                        <img class="featured-image img-fluid shadow" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
                     {% endif %}
-                {% endif %}
-                
-            </div>
+
+                </div>
             {% endif %}
             <!-- End Featured Image -->
-                                    
-            <!-- Post Content -->
+                                                
+                        <!-- Post Content -->
             <div class="article-post">
                 <!-- Toc if any -->
                 {% if page.toc %}
@@ -116,14 +116,14 @@ post_class: post-template
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
                         <li>
-                            <a class="smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | replace: " ","-" }}">{{ category }}</a>
+                            <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
                         </li>
                     {% endfor %}
                 </ul>
             </div>
             <!-- End Categories -->
-                                                            
-            <!-- Post Tags -->
+                                                                        
+                        <!-- Post Tags -->
             <div class="after-post-tags">
                 <ul class="tags">
                     {% assign sortedTags = page.tags | sort %}
@@ -135,8 +135,8 @@ post_class: post-template
                 </ul>
             </div>
             <!-- End Tags -->
-                                                            
-            <!-- Prev/Next -->
+                                                                        
+                        <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
                 {% if page.previous.url %}
                     <a class="prev d-block col-md-6" href="{{page.previous.url | absolute_url}}">
@@ -180,13 +180,13 @@ https://search.google.com/structured-data/testing-tool/u/0/
 {% if page.rating %}
     <script type="application/ld+json">
 
-[36mLine: 2[0m
-[31m(empty line)[0m
-[31m[36mLine: 1[0m[0m
-[31m[31m[36 mLine : 1 [[0m[0m
-[31m[31m        0 m [[0m[0m
-[31m[31m            31 m[[0m[0m
-[31m[31m                36 mLine : 2 [[0m[0m
-[31m[31m                    [[0m[0m
+[36mLine: 1[0m
+[31m[36 mLine : 1 [[0m
+[31m        0 m [[0m
+[31m            31 m[[0m
+[31m                36 mLine : 2 [[0m
+[31m                    [[0m
+[31m                        0 m [[0m
+[31m                            31 m 0 m [[0m
 </script>
 {% endif %}
