@@ -47,9 +47,6 @@ paginate_path: /page:num/
 # Other
 markdown: kramdown
 
-highlighter: rouge
-  input: GFM
-
 kramdown:
   input: GFM
   syntax_highlighter: rouge

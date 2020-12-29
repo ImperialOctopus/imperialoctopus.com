@@ -4,10 +4,13 @@ title: "Printable Avalon"
 categories: [Board Games]
 image: assets/images/avalon-printable.jpg
 description: "Print at home redesign of The Resistance: Avalon"
+external_url: "https://github.com/ImperialOctopus/avalon-printable/releases"
+github: "https://github.com/ImperialOctopus/avalon-printable"
 featured: true
-app: false
-comments: false
+comments: true
 ---
+
+This project started life as bits of paper with names written on that I created to play Avalon with my family while my real copy of the game was in another country. When I got home I decided to polish up the concept a little for anyone else stuck in a similar situation.
 
 ## Description
 
@@ -17,11 +20,11 @@ This print-at-home version is designed to allow anyone to print their own versio
 
 ## Downloads
 
-[PDF downloads from GitHub](https://github.com/ImperialOctopus/avalon-printable/releases/tag/v1.0.0)
+[PDF downloads from GitHub](https://github.com/ImperialOctopus/avalon-printable/releases)
 
 ## Rules
 
-Shameless plug for my [Avalon Companion App](https://avalon.imperialoctopus.com/) which can handle all the basic rules for you!
+Shameless plug for my [Avalon Companion App](https://imperialoctopus.com/avalon) which can handle all the basic rules for you!
 
 ### Set Up
 
