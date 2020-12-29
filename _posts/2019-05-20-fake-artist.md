@@ -5,14 +5,16 @@ categories: [App]
 image: assets/images/fake-artist.jpg
 description: "A web app to replace the gamemaster when playing A Fake Artist Goes to New York."
 external_url: "https://fake-artist.imperialoctopus.com/"
+github: "https://github.com/ImperialOctopus/fake-artist"
 featured: true
-app: true
-comments: false
+comments: true
 ---
 
-[Fake Artist Companion App](https://fake-artist.imperialoctopus.com/)
+[Fake Artist Companion Web App](https://fake-artist.imperialoctopus.com/)
 
-A web app to replace the gamemaster when playing A Fake Artist Goes to New York.
+We discovered this fantastic drawing game after it was featured on [Polygon's Overboard](https://www.youtube.com/watch?v=k2z8l9k38mk) but found while trying to play it that the setup was very awkward - especially for new players. This app replaces the whole process making it much faster and easier.
+
+The app has two modes - an online room option where each player joins on their own device and privately views their word, and a single device version where one device is passed between players.
 
 ## Instructions
 
