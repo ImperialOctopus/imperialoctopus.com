@@ -42,25 +42,32 @@ post_class: post-template
                 {% include adsense-under-header.html %}
             {% endif %}
             <!-- End Adsense -->
-                                                
-                        <!-- Post Featured Image -->
+                                                            
+                                    <!-- Post Featured Image -->
             {% if page.image %}
 
-                {% if page.external_url %}
-                    <a href={{page.external_url}}>
-                    {% endif %}
+            <div class="featured-image-container">
 
+                {% if page.external_url %}
+                    <a class="featured-image-link" href={{page.external_url}}>
+                        {% if site.lazyimages == "enabled" %}
+                            <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
+                        {% else %}
+                            <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
+                        {% endif %}
+                    </a>
+                {% else %}
                     {% if site.lazyimages == "enabled" %}
                         <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
                     {% else %}
                         <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
                     {% endif %}
-                    {% if page.external_url %}
-                    </a>
                 {% endif %}
+                
+            </div>
             {% endif %}
             <!-- End Featured Image -->
-                        
+                                    
             <!-- Post Content -->
             <div class="article-post">
                 <!-- Toc if any -->
@@ -116,8 +123,8 @@ post_class: post-template
                 </ul>
             </div>
             <!-- End Categories -->
-                                                
-                        <!-- Post Tags -->
+                                                            
+            <!-- Post Tags -->
             <div class="after-post-tags">
                 <ul class="tags">
                     {% assign sortedTags = page.tags | sort %}
@@ -129,7 +136,7 @@ post_class: post-template
                 </ul>
             </div>
             <!-- End Tags -->
-                                                
+                                                            
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
                 {% if page.previous.url %}
@@ -174,13 +181,13 @@ https://search.google.com/structured-data/testing-tool/u/0/
 {% if page.rating %}
     <script type="application/ld+json">
 
-[36mLine: 1[0m
-[31m[36 mLine : 2 [[0m
-[31m        0 m [[0m
-[31m            31 m(empty line)[[0m
-[31m                0 m [[0m
-[31m                    31 m[[0m
-[31m                        36 mLine : 1 [[0m
-[31m                            0 m[[0m
+[36mLine: 2[0m
+[31m(empty line)[0m
+[31m[36mLine: 1[0m[0m
+[31m[31m[36 mLine : 1 [[0m[0m
+[31m[31m        0 m [[0m[0m
+[31m[31m            31 m[[0m[0m
+[31m[31m                36 mLine : 2 [[0m[0m
+[31m[31m                    [[0m[0m
 </script>
 {% endif %}

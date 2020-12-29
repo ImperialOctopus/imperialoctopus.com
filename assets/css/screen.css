@@ -344,9 +344,17 @@ blockquote {
   margin: 0 0 1.5rem 0;
 }
 
-.featured-image {
-  display: block;
+.featured-image-container {
   margin-bottom: 1.5rem;
+}
+
+.featured-image-link {
+  margin: auto;
+  display: contents;
+}
+
+.featured-image {
+  margin: auto;
   max-height: 350px;
 }
 
