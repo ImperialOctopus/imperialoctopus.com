@@ -6,7 +6,7 @@ image: assets/images/custom-cal.png
 description: "Template for making cross-platform teaching resources."
 external_url: https://github.com/ImperialOctopus/custom_cal
 github: https://github.com/ImperialOctopus/custom_cal
-featured: true
+featured: false
 comments: true
 ---
 
